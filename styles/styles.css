@@ -1,0 +1,20 @@
+p {
+	color: blue;
+}
+
+p:hover {
+	color: red;
+	font-style: italic;
+}
+
+.my-class{
+	color: purple;
+}
+
+li:hover{
+	color: red;
+}
+
+ul:hover{
+	color: pink;
+}
