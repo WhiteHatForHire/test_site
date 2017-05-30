@@ -1,4 +1,5 @@
 .big_heading{
+
 	font-family: 'Bungee Shade', cursive;
 	
 }
@@ -6,7 +7,36 @@
 .big_heading:hover{
 	color: green;
 }
+.smallimage{
+	padding-top: 5px;
+	display: block;
+    margin: auto;
+    width: 10%;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar > li{
+	display: inline;
+}
+
+
+body {
+	width: 800px;
+    margin: 0 auto;
+	background-color: #DDDDDD;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
 p {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	padding: 5px 20px 5px 25px;
 	color: blue;
 	font-family: 'Bungee', cursive;
 	font-size: 20px;
@@ -15,7 +45,6 @@ p {
 p:hover {
 	color: red;
 	font-style: italic;
-
 }
 
 .my-class{
@@ -23,15 +52,35 @@ p:hover {
 }
 
 li:hover{
+
 	color: red;
+}
+
+.center{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	padding: 5px 20px 5px 25px;
+}
+
+.center2{
+	width:150px;
+    margin: auto;
+    text-align:left;  
 }
 
 ul:hover{
 	color: pink;
 }
 
+ul{
+	font-size: 20px;
+	font-family: 'Helvetica'
+	list-style-type: square;
+}
+
 html{
-	background: #e1e2ed;
+	background: #001f3f;
 }
 /*
 font-family: 'Bungee Shade', cursive;
