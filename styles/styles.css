@@ -1,10 +1,21 @@
+.big_heading{
+	font-family: 'Bungee Shade', cursive;
+	
+}
+
+.big_heading:hover{
+	color: green;
+}
 p {
 	color: blue;
+	font-family: 'Bungee', cursive;
+	font-size: 20px;
 }
 
 p:hover {
 	color: red;
 	font-style: italic;
+
 }
 
 .my-class{
@@ -18,3 +29,14 @@ li:hover{
 ul:hover{
 	color: pink;
 }
+
+html{
+	background: #e1e2ed;
+}
+/*
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
