@@ -16,12 +16,32 @@
 
 .navbar{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+	color: white;
+	text-decoration: none;
 }
 
+.center2 a:visited{
+	color: black;
+}
+.center2 a{
+	color: black;
+}
 .navbar > li{
-	display: inline;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar li:hover {
+    background-color: #111;
 }
 
 
@@ -75,7 +95,7 @@ ul:hover{
 
 ul{
 	font-size: 20px;
-	font-family: 'Helvetica'
+	font-family: 'Helvetica';
 	list-style-type: square;
 }
 
