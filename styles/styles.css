@@ -11,7 +11,7 @@
 	padding-top: 5px;
 	display: block;
     margin: auto;
-    width: 10%;
+    width: 20%;
 }
 
 .navbar{
@@ -95,7 +95,7 @@ ul:hover{
 
 ul{
 	font-size: 20px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Helvetica';
 	list-style-type: square;
 }
 
