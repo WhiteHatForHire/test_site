@@ -9,8 +9,13 @@ myImage.onclick = function() {
     }
 }
 
-var myButton = document.querySelector('button');
+var myButton = document.querySelector('button.jawn');
+var commentButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
+
+function error() {
+	alert("Feature not yet ready");
+}
 
 function setUserName() {
   var myName = prompt('Please enter your name.');
@@ -27,4 +32,8 @@ if(!localStorage.getItem('name')) {
 
 myButton.onclick = function() {
   setUserName();
+}
+
+commentButton.onclick = function() {
+  error();
 }
